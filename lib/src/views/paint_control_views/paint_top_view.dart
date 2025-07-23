@@ -65,7 +65,15 @@ class _PaintTopViewState extends State<PaintTopView> {
                       height: 40,
                       decoration: BoxDecoration(
                         borderRadius: BorderRadius.circular(20),
-                        color: widget.pencilColor!.toColor()
+                        color: widget.pencilColor!.toColor(),
+                        boxShadow: [
+                          BoxShadow(
+                            color: Colors.black.withOpacity(0.1), // engil qora soya
+                            spreadRadius: 4, // soyani kengaytirish
+                            blurRadius: 15,  // soyani xiralashtirish
+                            offset: const Offset(0, 8), // soya yo‘nalishi (gorizontal, vertikal)
+                          ),
+                        ],
                       ),
                       child: const Icon(
                         Icons.edit_outlined,

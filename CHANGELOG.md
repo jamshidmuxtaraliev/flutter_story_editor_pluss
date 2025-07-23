@@ -3,5 +3,11 @@
 
 * Initial release of *Flutter Story Editor*
 
-## 1.0.1
+## 0.0.2
 - flutter_test bug fixed
+
+## 0.0.3
+- dart version bug fixed
+
+## 0.0.4
+- dart version bug fixed
